@@ -26,8 +26,8 @@
       },
       "PGSSLMODE": {
         "description": "SSL is required to connect to Postgres on Heroku",
-        "value": "no-verify"
-      }
+        "value": "require"
+      },
     },
     "formation": {
       "web": {
